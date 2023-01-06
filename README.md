@@ -4,5 +4,5 @@ design to front-end code
 
 
 
-#splitted version of design
+#spliced version of design
 ![Group 1](https://user-images.githubusercontent.com/92162125/211013692-690cbf9d-4b01-4336-bbe3-8094095723d7.png)
