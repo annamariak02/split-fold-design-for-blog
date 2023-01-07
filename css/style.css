@@ -171,4 +171,16 @@ small, .text_small {font-size: 0.667rem;}
 .social-footer{
     flex-direction: row;
 }
+.hero-copy{
+    position: relative;
+}
+.placeholder{
+    font-weight: 700;
+    color: #f3f3f3;
+    position: absolute;
+    left: -60px;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+}
 /*END main styles*/
