@@ -118,6 +118,12 @@ small, .text_small {font-size: 0.667rem;}
 .f-column{
     flex-direction: column;
 }
+.space-between{
+    justify-content: space-between;
+}
+.h-center{
+    align-items: center;
+}
 .split-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,6 +133,9 @@ small, .text_small {font-size: 0.667rem;}
 }
 .wrapper{
     padding: 2em;
+}
+.m-0{
+    margin: 0;
 }
 
 /*END global styles*/
@@ -145,6 +154,10 @@ small, .text_small {font-size: 0.667rem;}
 }
 .social-sidebar img{
     width: 1.3em;
+    margin: 0.5em;
+}
+.social-sidebar{
+    margin: 0 1em;
 }
 .logo{
     width: 4em;
