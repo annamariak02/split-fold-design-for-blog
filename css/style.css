@@ -140,7 +140,7 @@ small, .text_small {font-size: 0.667rem;}
 .btn{
     padding: 8px 16px;
     text-decoration: none;
-    color: ;
+    color: black;
 }
 .btn-secondary{
     border: 1px solid #d6d6d6;
@@ -151,13 +151,7 @@ small, .text_small {font-size: 0.667rem;}
     background-color: orange;
     color: white;
 }
-.btn2{
-    border-radius: 100px;
-    width: 80px;
-    height: 80px;
-    background-color: orange;
-    color: white;
-}
+
 /*END global styles*/
 /*main styles*/
 .hero > .col{
