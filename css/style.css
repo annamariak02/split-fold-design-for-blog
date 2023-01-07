@@ -112,6 +112,12 @@ small, .text_small {font-size: 0.667rem;}
 /*END typography*/
 
 /*global styles*/
+.d-flex{
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
+}
 .split-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -119,11 +125,14 @@ small, .text_small {font-size: 0.667rem;}
     grid-column-gap: 0px;
     grid-row-gap: 0px;    
 }
+.wrapper{
+    padding: 2em;
+}
 
 /*END global styles*/
 /*main styles*/
 .hero > .col{
-    min-height: 90vh;
+    min-height: 100vh;
 }
 .col{
     border: 1px solid black;
@@ -133,5 +142,14 @@ small, .text_small {font-size: 0.667rem;}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.social-sidebar img{
+    width: 1.3em;
+}
+.logo{
+    width: 4em;
+}
+.social-footer{
+    flex-direction: row;
 }
 /*END main styles*/
